@@ -60,3 +60,8 @@ input:focus, textarea:focus{
     margin-top: 10px;
 }
 
+.submitBtn:hover{
+    background-color: rgb(126, 117, 117);
+    cursor: pointer;
+}
+
