@@ -12,3 +12,51 @@ body{
     height: 100vh;
     background-color: #ccc;
 }
+
+.contactForm {
+    width: 500px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus, textarea:focus{
+    border-color: #333;
+    outline: none;
+}
+
+.tag{
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.container{
+    background-color: steelblue;
+    padding: 2rem;
+    border-radius: 10px;
+    overflow: none;
+    display: flex;
+}
+
+.submitBtn{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
