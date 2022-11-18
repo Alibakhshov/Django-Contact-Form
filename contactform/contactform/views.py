@@ -1,4 +1,5 @@
 from django.http import HttpResponse
+from djang.shortcuts import render
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the contactform index.")
+    return render(request, 'index.html')
