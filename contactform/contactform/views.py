@@ -1,5 +1,6 @@
 from django.http import HttpResponse
-from djang.shortcuts import render
+from django.shortcuts import render
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'main.html', {})
+
