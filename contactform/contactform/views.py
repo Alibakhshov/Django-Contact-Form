@@ -9,14 +9,14 @@ def index(request):
         email = request.POST.get('email')
         subject = request.POST.get('subject')
         message = request.POST.get('message')
-        attachment = request.FILES.get('file')
+        classrooms = request.POST.get('class')
         
         
         data = {
             'name': name,
             'email': email,
             'subject': subject,
-            'attachment': attachment,
+            'classrooms': classrooms,
             'message': message
         }
         message = '''
@@ -26,10 +26,10 @@ def index(request):
         
         New message: {}
         
-        Attachment: {}
+        Classroom: {}
         
         
-        '''.format( data['name'],  data['email'], data['message'], data['attachment'])
+        '''.format( data['name'],  data['email'], data['message'], data['classrooms'])
         
         send_mail(data['subject'], message, '', ['raufalibakhshov4@gmail.com'], ['raufalibakhshov02@gmail.com'])
         # send_mail(
