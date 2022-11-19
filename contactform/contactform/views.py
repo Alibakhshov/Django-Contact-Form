@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.core.mail import send_mail
 
 def index(request):
     if request.method == 'POST':
@@ -14,8 +15,14 @@ def index(request):
             'subject': subject,
             'message': message
         }
+        message = '''
+        New message {}:
         
-        print(data)
-       ## return HttpResponse('Name: ' + name + ' Email: ' + email + ' Message: ' + message)
+        From: {}
+        '''.format(data['message'], data['email'], data['name'], data['subject'])
+        # send_mail(data['subject'], message, '', ['raufalibakhshov4@gmail.com'])
+        send_mail(data['subject'], data['name'], data['message'], ['raufalibakhshov4@gmail.com'])
+        
+       
     return render(request, 'main.html', {})
 
