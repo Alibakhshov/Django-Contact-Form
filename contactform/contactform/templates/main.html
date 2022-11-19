@@ -11,7 +11,7 @@
         <form action="" method="POST" class="contactForm">
             {% csrf_token %}
             <div class="formControl">
-                <div class="tag">Full Name</div>
+                <div class="tag" autocomplete="on">Full Name</div>
                 <input type="text" name="fullName" placeholder="Enter your name">
             </div>
 
