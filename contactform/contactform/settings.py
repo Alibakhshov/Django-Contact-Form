@@ -128,13 +128,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.mailtrap.io'
-EMAIL_HOST_USER = 'fbd9b39519271c'
-EMAIL_HOST_PASSWORD = '977a6f1ed3f570'
-EMAIL_PORT = '2525'
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_HOST_USER = 'itintern@mail.ru'
-# EMAIL_HOST_PASSWORD = 'P@ssword2022@'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_USE_SSL = False
+# EMAIL_HOST = 'smtp.mailtrap.io'
+# EMAIL_HOST_USER = 'fbd9b39519271c'
+# EMAIL_HOST_PASSWORD = '977a6f1ed3f570'
+# EMAIL_PORT = '2525'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'ucaitintern@gmail.com'
+EMAIL_HOST_PASSWORD = 'dfatwkohhaloirei'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False

@@ -16,13 +16,23 @@ def index(request):
             'message': message
         }
         message = '''
-        New message {}:
+        Name of the Intern: {}
         
         From: {}
-        '''.format(data['message'], data['email'], data['name'], data['subject'])
-        # send_mail(data['subject'], message, '', ['raufalibakhshov4@gmail.com'])
-        send_mail(data['subject'], data['name'], data['message'], ['raufalibakhshov4@gmail.com'])
         
+        New message: {}
+        
+        
+        '''.format( data['name'],  data['email'], data['message'])
+        
+        send_mail(data['subject'], message, '', ['raufalibakhshov4@gmail.com'], ['raufalibakhshov02@gmail.com'])
+        # send_mail(
+        #         'subject',
+        #         'That’s your message body',
+        #         'raufalibakhshov4@gmail.com',
+        #         ['raufalibakhshov02@gmail.com'],
+        #         fail_silently=False,
+        #     )
        
     return render(request, 'main.html', {})
 
