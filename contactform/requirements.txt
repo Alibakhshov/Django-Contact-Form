@@ -20,6 +20,7 @@ distro-info===1.1build1
 Django==4.1.2
 django-cors-headers==3.13.0
 djangorestframework==3.14.0
+django-heroku==0.3.1
 duplicity==0.8.21
 fasteners==0.14.1
 future==0.18.2
@@ -52,6 +53,7 @@ onboard==1.4.1
 paramiko==2.9.3
 pexpect==4.8.0
 Pillow==9.0.1
+psycopg2==2.9.3
 ply==3.11
 powerline-status==2.7
 protobuf==3.12.4
