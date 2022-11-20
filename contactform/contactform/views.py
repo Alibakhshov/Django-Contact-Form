@@ -28,14 +28,14 @@ def index(request):
         message = '''
         Name of the Intern: {}
         
-        From: {}
+        Email of the Intern: {}
         
-        New message: {}
+        Checked place: {}
         
-        Classroom: {}
+        Other comments: {}
         
         
-        '''.format( data['name'],  data['email'], data['message'], data['classrooms'])
+        '''.format( data['name'],  data['email'], data['classrooms'] , data['message'])
         
         send_mail(data['subject'], message, '', ['raufalibakhshov4@gmail.com'], ['raufalibakhshov02@gmail.com'])
         # send_mail(
