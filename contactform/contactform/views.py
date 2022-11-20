@@ -26,11 +26,11 @@ def index(request):
             
         }
         message = '''
-        This is an auto generated message, please do not reply. You may contact the sender at {}
+        This is an auto generated message, please do not reply. You may contact the sender via {}
         
         Name of the Intern: {}
         
-        Classroom(TV Lounge): {}
+        Checked classroom(TV Lounge): {}
         
         Classroom(TV Lounges) equipments: {}
         
