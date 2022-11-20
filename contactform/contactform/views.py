@@ -32,6 +32,10 @@ def index(request):
         
         Checked place: {}
         
+        Equipments in 
+        
+        Missing Equipments: {}
+        
         Other comments: {}
         
         
