@@ -8,8 +8,11 @@ def index(request):
         name = request.POST.get('fullName')
         email = request.POST.get('email')
         subject = request.POST.get('subject')
+        classrooms = request.POST.get('classTV')
+        equipment = request.POST.get('equipments')
+        missEquipment = request.POST.get('missEquipments')
         message = request.POST.get('message')
-        classrooms = request.POST.get('class')
+        
         
         
         data = {
@@ -17,7 +20,10 @@ def index(request):
             'email': email,
             'subject': subject,
             'classrooms': classrooms,
+            'equipment': equipment,
+            'missEquipment': missEquipment,
             'message': message
+            
         }
         message = '''
         Name of the Intern: {}
