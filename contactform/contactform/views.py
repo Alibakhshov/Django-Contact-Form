@@ -32,16 +32,16 @@ def index(request):
         
         Checked classroom(TV Lounge): {}
         
-        Classroom(TV Lounges) equipments: {}
+        {} equipments: {}
         
-        Missing equipments: {}
+        Missing equipments in {}: {}
         
         Other comments: {}
         
         Best regards,
         IT Intern {}
         
-        '''.format(data['email'], data['name'], data['classrooms'], data['equipment'], data['missEquipment'], data['message'], data['name'])
+        '''.format(data['email'], data['name'], data['classrooms'], data['classrooms'], data['equipment'], data['classrooms'], data['missEquipment'], data['message'], data['name'])
         
         send_mail(data['subject'], message, '', ['raufalibakhshov4@gmail.com'], ['raufalibakhshov02@gmail.com'])
         # send_mail(
