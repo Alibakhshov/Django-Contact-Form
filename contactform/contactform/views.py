@@ -43,7 +43,7 @@ def index(request):
         
         '''.format(data['email'], data['name'], data['classrooms'], data['classrooms'], data['equipment'], data['classrooms'], data['missEquipment'], data['message'], data['name'])
         
-        send_mail(data['subject'], message, '', ['kanat.taalai@ucentralasia.org'], ['raufalibakhshov02@gmail.com'])
+        send_mail(data['subject'], message, '', ['rauf.alibakhshov_2025@ucentralasia.org'], ['raufalibakhshov02@gmail.com'])
         # send_mail(
         #         'subject',
         #         'That’s your message body',
