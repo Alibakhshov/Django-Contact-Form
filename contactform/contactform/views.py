@@ -45,7 +45,6 @@ def index(request):
         
         send_mail(data['subject'], message, '', ['rauf.alibakhshov_2025@ucentralasia.org'], ['raufalibakhshov02@gmail.com'])
         # send_mail(
-        #         'subject',
         #         'That’s your message body',
         #         'raufalibakhshov4@gmail.com',
         #         ['raufalibakhshov02@gmail.com'],
