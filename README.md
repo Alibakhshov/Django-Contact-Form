@@ -31,10 +31,25 @@ Django Contact Form is a web application that allows you to send messages to the
 
     > ``python manage.py runserverd``
 4. Open the link in your browser
-    > ``http://127.0.0.1:8000/``
+    > http://127.0.0.1:8000/
 5. Use the application
 6. To stop the server, press `Ctrl + C` in the terminal
 
+## Software and libraries used
+
+* Python 3.9.1
+* Django 3.1.4
+
+
+## Planned features
+
+* Add a captcha to the form
+
+
+
+## Screenshots
+
+![Screenshot 1](contactform\contactform\img\image.png)
 
 
 
