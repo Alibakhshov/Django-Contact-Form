@@ -6,12 +6,8 @@
 <ol>
     <li><a href="#description">Description</a></li>
     <li><a href="#usage">How use the project</a></li>
-    <li><a href="#software-and-libraries-used">Software and libraries used</a></li>
-    <li><a href="#planned-features">Planned features</a></li>
-    <li><a href="#screenshots">Screenshots</a></li>
-    <li><a href="#video-demonstration">Video Demonstration</a></li>
+    <li><a href="##screenshot">Screenshot</a></li>
     <li><a href="#contributions">Contributions</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 
 ## Description
