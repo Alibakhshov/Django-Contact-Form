@@ -25,7 +25,7 @@ Django Contact Form is a web application that allows you to send messages to the
     > git clone https://github.com/Alibakhshov/Django-Contact-Form.git
 2. Open the project folder in your desired IDE
 3. Navigate to the root folder of the project (there is a file named `manage.py` in the root folder)
-    > cd contactform 
+    > ``cd contactform ``
 
     > pip install -r requirements.txt
 
