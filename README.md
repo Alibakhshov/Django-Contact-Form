@@ -34,22 +34,43 @@ Django Contact Form is a web application that allows you to send messages to the
     > http://127.0.0.1:8000/
 5. Use the application
 6. To stop the server, press `Ctrl + C` in the terminal
-
-## Software and libraries used
-
-* Python 3.9.1
-* Django 3.1.4
-
-
-## Planned features
-
-* Add a captcha to the form
-
-
-
-## Screenshots
+## Screenshot
 
 ![Screenshot 1](img/image.png)
+
+## Contributions
+
+Anyone can contribute to this repository. If you want to contribute, please follow the steps below:
+
+1. Fork this repository
+2. Clone the forked repository
+3. Create a new branch
+4. Make changes to the code
+5. Commit the changes
+6. Push the changes to the forked repository
+7. Create a pull request
+8. Wait for the pull request to be merged
+9. Repeat steps 1-8
+
+## 🔗 Connect With Me
+
+<div align= "center">
+    <a href="https://open.spotify.com/playlist/7KmIUNWrK8wEHfQcQfFrQ1?si=0e2d44043b5a40a4">
+        <img height="35" src="img/spotify.png"/>
+    </a>
+    <a href="https://www.linkedin.com/in/alibakhshov/">
+        <img height="35" src="img/linkedin.png"/>
+    </a>
+    <a href="https://www.instagram.com/alibaxshovv/?next=%2F">
+        <img height="35" src="img/instagram.png"/>
+    </a>
+    <a href="">
+        <img height="35" flex-direction= "column" src="img/gmail.png"/>
+    </a>
+</div>
+
+<p align="right"><a href="#top">back to top</a></p>
+
 
 
 
