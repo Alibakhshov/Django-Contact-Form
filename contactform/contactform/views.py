@@ -18,7 +18,6 @@ def index(request):
             'email': email,
             'subject': subject,
             'classrooms': classrooms,
-            'equipment': equipment,
             'missEquipment': missEquipment,
             'message': message
             
@@ -29,8 +28,6 @@ def index(request):
         Name of the Intern: {}
         
         Checked classroom(TV Lounge): {}
-        
-        {} equipments: {}
         
         Missing equipments in {}: {}
         
