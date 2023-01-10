@@ -16,12 +16,14 @@
 
 ## Description
 
-This is a simple contact form that sends an email to the site administrator when someone submits it. It is a project that I created to learn how to use Django and to practice my skills in Python. 
+Django Contact Form is a web application that allows you to send messages to the site administrator. The application is written in Python using the Django framework and designed to be used as a contact form on a website. 
 
 
 ## How use the project
 
 1. Clone the repository
-> git clone https://github.com/Alibakhshov/Steganography.git
+    > git clone https://github.com/Alibakhshov/Steganography.git
+
+
 
 
