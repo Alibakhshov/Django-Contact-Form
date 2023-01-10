@@ -26,8 +26,10 @@ Django Contact Form is a web application that allows you to send messages to the
 2. Open the project folder in your desired IDE
 3. Navigate to the root folder of the project (there is a file named `manage.py` in the root folder)
     > cd contactform 
+
     > pip install -r requirements.txt
-    > python manage.py runserver
+
+    > python manage.py runserverd
 4. Open the link in your browser
     > http://127.0.0.1:8000/
 5. Use the application
