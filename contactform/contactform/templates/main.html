@@ -11,8 +11,13 @@
         <form action="" method="POST" class="contactForm">
             {% csrf_token %}
             <div class="formControl">
-                <div class="tag" autocomplete="on">Full Name</div>
-                <input type="text" name="fullName" placeholder="Enter your name and surname">
+                <div class="tag" autocomplete="on">First Name</div>
+                <input type="text" name="fullName" placeholder="Enter your name">
+            </div>
+
+            <div class="formControl">
+                <div class="tag">Last name</div>
+                <input type="text" name="missEquipments" placeholder="">
             </div>
 
             <div class="formControl">
@@ -26,22 +31,12 @@
             </div>
 
             <div class="formControl">
-                <div class="tag">Classroom or TV lounges</div>
+                <div class="tag">Phone</div>
                 <input type="text" name="classTV" placeholder="Enter the name of the classroom or lounges">
             </div>
             
             <div class="formControl">
-                <div class="tag">Classroom(TV lounges) equipments</div>
-                <input type="text" name="equipments" placeholder="">
-            </div>
-
-            <div class="formControl">
-                <div class="tag"> Missing equipments</div>
-                <input type="text" name="missEquipments" placeholder="">
-            </div>
-
-            <div class="formControl">
-                <div class="tag">Other comments</div>
+                <div class="tag">Comments</div>
                 <textarea name="message" cols="30" rows="10" placeholder="Write anything..."></textarea>
             </div>
 
