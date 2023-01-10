@@ -49,7 +49,7 @@ Django Contact Form is a web application that allows you to send messages to the
 
 ## Screenshots
 
-![Screenshot 1](contactform\contactform\img\image.png)
+![Screenshot 1](img/image.png)
 
 
 
