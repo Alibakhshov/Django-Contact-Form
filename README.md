@@ -5,8 +5,8 @@
 
 <ol>
     <li><a href="#description">Description</a></li>
-    <li><a href="#usage">How use the project</a></li>
-    <li><a href="##screenshot">Screenshot</a></li>
+    <li><a href="#how-use-the-project">How use the project</a></li>
+    <li><a href="#screenshot">Screenshot</a></li>
     <li><a href="#contributions">Contributions</a></li>
   </ol>
 
